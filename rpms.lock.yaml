@@ -39,13 +39,13 @@ arches:
     name: glibc-headers
     evr: 2.34-125.el9_5.1
     sourcerpm: glibc-2.34-125.el9_5.1.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-503.15.1.el9_5.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-503.16.1.el9_5.x86_64.rpm
     repoid: ubi-9-appstream-rpms
-    size: 3912317
-    checksum: sha256:f702b9d58be6691760ee4cef09451fecf3b2f3bfd00ba792541e55c03d4908e1
+    size: 3914561
+    checksum: sha256:80391a4d5e4713f6e576bfecf572ff59ea9815d2f6bba3d40826aca129226fd6
     name: kernel-headers
-    evr: 5.14.0-503.15.1.el9_5
-    sourcerpm: kernel-5.14.0-503.15.1.el9_5.src.rpm
+    evr: 5.14.0-503.16.1.el9_5
+    sourcerpm: kernel-5.14.0-503.16.1.el9_5.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/l/libmpc-1.2.1-4.el9.x86_64.rpm
     repoid: ubi-9-appstream-rpms
     size: 66075
