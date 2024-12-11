@@ -4,5 +4,11 @@
   "dockerfile": {
     "schedule": "at any time"
   },
+  "lockFileMaintenance": {
+    "schedule": "at any time"
+  },
+  "rpm": {
+    "schedule": "at any time"
+  },
   "updateNotScheduled": true
 }
