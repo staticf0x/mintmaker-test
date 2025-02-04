@@ -4,13 +4,13 @@ lockfileVendor: redhat
 arches:
 - arch: x86_64
   packages:
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/c/cargo-1.79.0-2.el9.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/c/cargo-1.79.0-3.el9_5.x86_64.rpm
     repoid: ubi-9-appstream-rpms
-    size: 7678167
-    checksum: sha256:f8dbf474645e5c77a67899c0e9c6778d4603d854b89ed97a250e88b651141919
+    size: 7677114
+    checksum: sha256:646e36cade15b22938c0721232aa100a228969430c593c10adba9a80e3fe7cff
     name: cargo
-    evr: 1.79.0-2.el9
-    sourcerpm: rust-1.79.0-2.el9.src.rpm
+    evr: 1.79.0-3.el9_5
+    sourcerpm: rust-1.79.0-3.el9_5.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/c/cpp-11.5.0-2.el9.x86_64.rpm
     repoid: ubi-9-appstream-rpms
     size: 11230619
@@ -67,20 +67,20 @@ arches:
     name: llvm-libs
     evr: 18.1.8-3.el9
     sourcerpm: llvm-18.1.8-3.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/r/rust-1.79.0-2.el9.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/r/rust-1.79.0-3.el9_5.x86_64.rpm
     repoid: ubi-9-appstream-rpms
-    size: 26519806
-    checksum: sha256:8d48b97d2403bded0f2461bd3d09308248f52c6297333e6b88824ea47525c2e7
+    size: 26522569
+    checksum: sha256:fae006c4035d70e650fa1249d06aa9d7b0bb0f6bb2f173be852ca48eccf86f50
     name: rust
-    evr: 1.79.0-2.el9
-    sourcerpm: rust-1.79.0-2.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/r/rust-std-static-1.79.0-2.el9.x86_64.rpm
+    evr: 1.79.0-3.el9_5
+    sourcerpm: rust-1.79.0-3.el9_5.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/r/rust-std-static-1.79.0-3.el9_5.x86_64.rpm
     repoid: ubi-9-appstream-rpms
-    size: 35688706
-    checksum: sha256:e7994a606687a9102dfaf7feb3074e49c49abd38150a541ca36be2f50cf52835
+    size: 35671907
+    checksum: sha256:e6b3ea8b1c965e78cc883ed7a8311235366baf40e746e99526cf9c093c6f4865
     name: rust-std-static
-    evr: 1.79.0-2.el9
-    sourcerpm: rust-1.79.0-2.el9.src.rpm
+    evr: 1.79.0-3.el9_5
+    sourcerpm: rust-1.79.0-3.el9_5.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/b/binutils-2.35.2-54.el9.x86_64.rpm
     repoid: ubi-9-baseos-rpms
     size: 4816328
@@ -157,12 +157,12 @@ arches:
     checksum: sha256:1d34abbe3771fe634129faa11d52c7a62ecb66c028bf2c4a1d497a2476bb8d23
     name: llvm
     evr: 18.1.8-3.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/r/rust-1.79.0-2.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/r/rust-1.79.0-3.el9_5.src.rpm
     repoid: ubi-9-appstream-source
-    size: 163853842
-    checksum: sha256:d8021ef9b893948350d9cd1f4c5e695d09f775c465f303747215c002c8620e8c
+    size: 163853739
+    checksum: sha256:f38e9b64e08dda92fc8fcfc63bd309c956c6d837c60c8090e158e0e12dca079b
     name: rust
-    evr: 1.79.0-2.el9
+    evr: 1.79.0-3.el9_5
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/b/binutils-2.35.2-54.el9.src.rpm
     repoid: ubi-9-baseos-source
     size: 22368671
