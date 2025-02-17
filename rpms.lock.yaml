@@ -109,20 +109,6 @@ arches:
     name: libedit
     evr: 3.1-38.20210216cvs.el9
     sourcerpm: libedit-3.1-38.20210216cvs.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/l/libgcc-11.5.0-5.el9_5.x86_64.rpm
-    repoid: ubi-9-baseos-rpms
-    size: 89621
-    checksum: sha256:6f7bc4ed734b01d36f9dba66f34f610f2f39e5280588814a666b4d4be2dd8807
-    name: libgcc
-    evr: 11.5.0-5.el9_5
-    sourcerpm: gcc-11.5.0-5.el9_5.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/l/libgomp-11.5.0-5.el9_5.x86_64.rpm
-    repoid: ubi-9-baseos-rpms
-    size: 269396
-    checksum: sha256:da7af36960df4b59178f4d7c42353d48c53fbe231e7e62d734a4319748f897a9
-    name: libgomp
-    evr: 11.5.0-5.el9_5
-    sourcerpm: gcc-11.5.0-5.el9_5.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/l/libpkgconf-1.7.3-10.el9.x86_64.rpm
     repoid: ubi-9-baseos-rpms
     size: 38387
