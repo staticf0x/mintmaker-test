@@ -1,4 +1,4 @@
 contentOrigin:
   repofiles:
-    - ./test.repo
-packages: ["rsync", "tbb"]
+    - ./ubi.repo
+packages: [cargo]
