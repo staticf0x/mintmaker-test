@@ -2,13 +2,10 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "prHourlyLimit": 5,
   "dockerfile": {
-    "schedule": "at any time"
-  },
-  "lockFileMaintenance": {
-    "schedule": "at any time"
+    "schedule": ["at any time"]
   },
   "rpm": {
-    "schedule": "at any time"
+    "schedule": ["at any time"]
   },
   "updateNotScheduled": true
 }
