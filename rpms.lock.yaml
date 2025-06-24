@@ -95,13 +95,27 @@ arches:
     name: binutils-gold
     evr: 2.35.2-63.el9
     sourcerpm: binutils-2.35.2-63.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/e/elfutils-debuginfod-client-0.192-5.el9.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/e/elfutils-debuginfod-client-0.192-6.el9_6.x86_64.rpm
     repoid: ubi-9-baseos-rpms
-    size: 47282
-    checksum: sha256:e5b1a7a9e1467bfe00913e9b22ba5665852f8c61900205a32d3043ace9e1c7c2
+    size: 47122
+    checksum: sha256:0fcab0370abc33e8df4686dad91ff390dd6dd3437b601c3911efd83ec7603168
     name: elfutils-debuginfod-client
-    evr: 0.192-5.el9
-    sourcerpm: elfutils-0.192-5.el9.src.rpm
+    evr: 0.192-6.el9_6
+    sourcerpm: elfutils-0.192-6.el9_6.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/e/elfutils-libelf-0.192-6.el9_6.x86_64.rpm
+    repoid: ubi-9-baseos-rpms
+    size: 212613
+    checksum: sha256:9c9e2bc6ea19cda24a73f95ef9f439d61fd4480ae1889ac7e0730ee67432fd64
+    name: elfutils-libelf
+    evr: 0.192-6.el9_6
+    sourcerpm: elfutils-0.192-6.el9_6.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/e/elfutils-libs-0.192-6.el9_6.x86_64.rpm
+    repoid: ubi-9-baseos-rpms
+    size: 269588
+    checksum: sha256:8071e26f2c44c4941dec0ed2296ec79485f9276f4abaa9464da2d1e625ddd31e
+    name: elfutils-libs
+    evr: 0.192-6.el9_6
+    sourcerpm: elfutils-0.192-6.el9_6.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/l/libedit-3.1-38.20210216cvs.el9.x86_64.rpm
     repoid: ubi-9-baseos-rpms
     size: 109330
@@ -169,12 +183,12 @@ arches:
     checksum: sha256:7e8e6c0116f7e862225990df4faaa664fe3b86198538cd350f01b3e5bd16cf41
     name: binutils
     evr: 2.35.2-63.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/e/elfutils-0.192-5.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/e/elfutils-0.192-6.el9_6.src.rpm
     repoid: ubi-9-baseos-source
-    size: 11943728
-    checksum: sha256:b5a00f4c49b8980167b250ed7f9e18b90162087cac06276a4fb4ce578a1e3d5a
+    size: 11944670
+    checksum: sha256:afe7c9bef952ed086637fe83ac77bfafa70bf2ba28c1d7aaa51a18c9a75146b6
     name: elfutils
-    evr: 0.192-5.el9
+    evr: 0.192-6.el9_6
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/g/gcc-11.5.0-5.el9_5.src.rpm
     repoid: ubi-9-baseos-source
     size: 81877102
