@@ -1,3 +1,3 @@
-boto3==1.40.69; python_version >= "3.12" and python_version < "3.13" \
-    --hash=sha256:5273f6bac347331a87db809dff97d8736c50c3be19f2bb36ad08c5131c408976 \
-    --hash=sha256:c3f710a1990c4be1c0db43b938743d4e404c7f1f06d5f1fa0c8e9b1cea4290b2
+boto3==1.41.1; python_version >= "3.12" and python_version < "3.13" \
+    --hash=sha256:05009dadcb0c63a2a4a11780f615362a811aa85e7a6950f2793ecf8055fcd1f2 \
+    --hash=sha256:fdee48cff828cfe0fb66295ae4d5f47736ee35f11e1de6be6c6dcd910f0810a4
