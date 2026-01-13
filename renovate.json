@@ -1,5 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "prHourlyLimit": 5,
-  "updateNotScheduled": true
+  "updateNotScheduled": true,
+  "dependencyDashboard": true
 }
