@@ -8,7 +8,11 @@ on:
 
 jobs:
   test:
+    name: "Test job"
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v4
+      - name: "Hello"
+        run: "python -c \"print('Hello, World')\""
+      
