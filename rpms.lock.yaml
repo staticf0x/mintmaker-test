@@ -109,6 +109,34 @@ arches:
     name: elfutils-debuginfod-client
     evr: 0.194-1.el9
     sourcerpm: elfutils-0.194-1.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/g/glibc-2.34-270.el9_8.x86_64.rpm
+    repoid: ubi-9-baseos-rpms
+    size: 2084453
+    checksum: sha256:39e15c1eb3181970e467e4baeaf31673120890b7bb9dd97b311f1c1128b76d16
+    name: glibc
+    evr: 2.34-270.el9_8
+    sourcerpm: glibc-2.34-270.el9_8.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/g/glibc-common-2.34-270.el9_8.x86_64.rpm
+    repoid: ubi-9-baseos-rpms
+    size: 322519
+    checksum: sha256:f63ee066c0942641ea683e499087a0e9b4fa80645387871ebef264bd51640567
+    name: glibc-common
+    evr: 2.34-270.el9_8
+    sourcerpm: glibc-2.34-270.el9_8.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/g/glibc-langpack-en-2.34-270.el9_8.x86_64.rpm
+    repoid: ubi-9-baseos-rpms
+    size: 685314
+    checksum: sha256:a6ed1995b04ec6c750b5467e7fe085acca53d63f8ec27dd768de1eb50b9a1dc1
+    name: glibc-langpack-en
+    evr: 2.34-270.el9_8
+    sourcerpm: glibc-2.34-270.el9_8.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/g/glibc-minimal-langpack-2.34-270.el9_8.x86_64.rpm
+    repoid: ubi-9-baseos-rpms
+    size: 31845
+    checksum: sha256:1ea08534d2eafe91a9d549277ab1682913f0407c1c4e3e0d89626975aca35fc8
+    name: glibc-minimal-langpack
+    evr: 2.34-270.el9_8
+    sourcerpm: glibc-2.34-270.el9_8.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/l/libedit-3.1-39.20210216cvs.el9.x86_64.rpm
     repoid: ubi-9-baseos-rpms
     size: 112056
